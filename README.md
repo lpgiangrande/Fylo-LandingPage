@@ -40,4 +40,6 @@ Users should be able to:
 
 Need using more of SASS. I've just learned a few basics during this project
 
+Need bg image and a few ajustments 
+
 
