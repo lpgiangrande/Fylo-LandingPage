@@ -46,8 +46,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - HTML5 
 - CSS 
-- Flexbox
-- Sass
+- BOOTSRAP
+- SASS
 
 
 ### Continued development
