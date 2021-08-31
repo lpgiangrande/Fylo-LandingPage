@@ -61,10 +61,6 @@ li {
 
 /* --------  INTRO --------  */
 
-header h2 {
-    padding: 0 2%;
-}
-
 button {
   width: 230px;
   height: 50px;
@@ -85,6 +81,7 @@ button {
   height: 80px;
   margin: 25px;
 }
+
 
 /* link with border bottom and icon (clickable div) */
 #fancy-link {
@@ -195,7 +192,6 @@ input {
 footer {
   background-color: $footer-bg-color;
   min-height: 600px;
-
   display: flex;
   align-items: flex-end;
   padding-bottom: 60px;

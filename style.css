@@ -7,7 +7,7 @@
    MEDIA QUERIES 
    ------------- */
 /* SMALL DEVICES */
-@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
+@media only screen and (min-width: 375px) and (max-width: 480px) {
   /* Make Nav ok on all mobile devices */
   .navbar-brand img {
     width: 60px;
@@ -15,7 +15,7 @@
   }
 }
 /* SMALL TO MEDIUM DEVICES */
-@media only screen and (min-device-width: 375px) and (max-device-width: 767px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
   li {
     margin-left: 40px;
   }
@@ -24,16 +24,20 @@
     display: flex;
     justify-content: center;
   }
+
+  #stay-prod-text {
+    margin-bottom: 60px;
+  }
 }
 /* Quotation mark -> keep absolute position but change the positions of this element */
-@media only screen and (min-device-width: 375px) and (max-device-width: 991px) {
+@media only screen and (min-width: 375px) and (max-width: 991px) {
   #quotationMark {
     top: 0;
     left: 15px !important;
   }
 }
 /* LARGER DEVICES */
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-width: 768px) {
   nav li {
     margin-right: 40px;
   }
@@ -122,10 +126,6 @@ li {
 }
 
 /* --------  INTRO --------  */
-header h2 {
-  padding: 0 2%;
-}
-
 button {
   width: 230px;
   height: 50px;
